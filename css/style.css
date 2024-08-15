@@ -1,0 +1,18 @@
+@import url('reset.css');
+@import url('./global/global.css');
+@import url('./global/header.css');
+@import url('./global/footer.css');
+@import url('./facilities/facilities.css');
+@import url('./limit/limit.css');
+@import url('./cashback/cashback.css');
+@import url('./world/world.css');
+
+body {
+  font-family: var(--Ubuntu);
+  font-size: 16px;
+}
+
+button:hover, a:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+}

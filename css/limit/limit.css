@@ -1,0 +1,96 @@
+.container-limit {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-limit-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  width: clamp(300px, 90vw, 350px);
+  margin: 35px auto;
+}
+
+.container-limit-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.container-limit-text > h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--b1);
+}
+
+.container-limit-text > aside {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: var(--FiraCode);
+  line-height: normal;
+  color: var(--b1);
+}
+
+.container-limit-text > aside > a {
+  font-weight: 700;
+  color: var(--b2);
+}
+
+.container-limit-facilities-practicalities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  width: clamp(300px, 90vw, 350px);
+  margin: 0 auto;
+}
+
+.container-limit-facilities, .container-limit-practicalities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+
+  width: 230px;
+
+  background-color: var(--s1);
+  border-radius: 16px;
+
+  padding: 25px 20px;
+}
+
+.container-limit-facilities > h3 , .container-limit-practicalities > h3 {
+  color: var(--r2);
+}
+
+.container-limit-facilities > ul , .container-limit-practicalities > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 15px;
+}
+
+.container-limit-facilities > ul > li, .container-limit-practicalities > ul > li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.container-limit-facilities > ul > li > img, .container-limit-practicalities > ul > li > img {
+  width: 25px;
+  height: 25px;
+}
+
+.container-limit-facilities > ul > li > p, .container-limit-practicalities > ul > li > p {
+  font-size: 12px;
+  font-family: var(--FiraCode);
+  font-weight: 400;
+  line-height: normal;
+  color: var(--b1);
+}

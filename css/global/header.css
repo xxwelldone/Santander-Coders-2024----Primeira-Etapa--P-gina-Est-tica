@@ -1,0 +1,41 @@
+header {
+  width: 100vw;
+  padding: 40px;
+  background: var(--s4);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.img-logo {
+  width: 25px;
+  height: 25px;
+}
+
+.btn-request {
+  border: 1px solid var(--r1);
+  border-radius: 12px;
+  background-color: var(--r1);
+  padding: 2px 40px;
+
+  color: var(--w1);
+}
+
+.btn-request:hover {
+  filter: brightness(0.9);
+  cursor: pointer;
+}
+
+.btn-menu {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.img-btn {
+  width: 25px;
+  height: 25px;
+}
