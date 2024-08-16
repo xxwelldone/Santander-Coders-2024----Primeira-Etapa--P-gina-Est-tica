@@ -9,7 +9,7 @@
 .nav-container {
   display: flex;
   justify-content: space-around;
-  padding: 32px;
+  padding: 20px;
   background-color: var(--s3);
   gap: 30px;
   position: sticky;
@@ -40,7 +40,7 @@
 #menu-toggle:checked + .nav-menu + .nav-list {
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  height: 130;
 
   gap: 16px;
   position: absolute;
@@ -50,7 +50,7 @@
   border-radius: 16px;
 }
 .nav-list-item {
-  padding: 8px 40px;
+  padding: 16px 40px;
 }
 .nav-list-item:hover {
   background-color: var(--s1);
