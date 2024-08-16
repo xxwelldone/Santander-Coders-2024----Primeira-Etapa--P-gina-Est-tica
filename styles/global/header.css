@@ -17,7 +17,8 @@
   z-index: 100;
 }
 .logo {
-  max-width: 33px;
+  height: 33px;
+  width: auto;
 }
 .nav-menu {
   position: relative;
@@ -53,4 +54,17 @@
 }
 .nav-list-item:hover {
   background-color: var(--s1);
+  border-radius: 16px;
+}
+
+@media (min-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+  .nav-list {
+    display: flex;
+  }
+  .nav-sticky .btn {
+    display: none;
+  }
 }

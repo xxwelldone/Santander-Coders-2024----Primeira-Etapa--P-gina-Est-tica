@@ -32,12 +32,17 @@
   <body>
     <header class="nav-sticky">
       <nav class="nav-container">
-        <img
-          class="logo"
-          src="/assets/santander.svg"
-          alt="Chama vermelha, logo do Santander"
-          srcset=""
-        />
+        <picture>
+          <source
+            media="(min-width: 700px)"
+            srcset="/assets/santander-logo-large.svg"
+          />
+          <img
+            class="logo"
+            src="/assets/santander.svg"
+            alt="Chama vermelha, logo do Santander"
+          />
+        </picture>
 
         <button class="btn f1">Solicite</button>
         <input type="checkbox" id="menu-toggle" />
@@ -45,6 +50,7 @@
           <img href="#menu" src="/assets/Icons/hamburguerMenu.svg" alt="" />
         </label>
         <ul class="nav-list f1">
+          <li class="nav-list-item"><a href="">Solicite</a></li>
           <li class="nav-list-item"><a href="">Benefícios</a></li>
           <li class="nav-list-item"><a href="">FAQ</a></li>
           <li class="nav-list-item"><a href="">Sobre o projeto</a></li>
@@ -61,6 +67,7 @@
             Com Santander Coder, você tem as melhores oportunidades que só uma
             das maiores instituições financeiras do mundo pode te oferecer.
           </p>
+          <button class="btn f1 readmore">Saiba mais</button>
         </div>
         <div class="form-solicite">
           <form action="" method="post">
@@ -78,6 +85,18 @@
         </div>
       </div>
     </main>
+    <!-- <section>
+      <div id="beneficios">
+        <div class="beneficios-text">
+          <h2 class="t1">Tudo o que precisa à um click de distância</h2>
+          <p class="b1">
+            No App Santander Coders você terá acesso às informações que importam
+            de maneira rápido e descomplicada.
+          </p>
+          <p class="b1">Quer aumentar limite? É só dar um click.</p>
+        </div>
+      </div>
+    </section> -->
     <footer></footer>
   </body>
 </html>

@@ -1,5 +1,5 @@
 #solicite {
-  background-image: url("/assets/bg-photos/bg-woman.svg");
+  background-image: url("/assets/bg-photos/bg-woman.jpg");
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding-top: 70px;
+  padding-top: 30px;
   color: var(--w1);
   margin: 0px 16px;
 }
@@ -26,7 +26,6 @@
   color: var(--w1);
   background-color: var(--r1);
   border-radius: 16px;
-  /* margin: 0px 72px 38px; */
   margin-bottom: 38px;
 }
 .form-text {
@@ -47,4 +46,34 @@
   background-color: var(--w1);
   color: var(--b1);
   width: 100%;
+}
+.readmore {
+  display: none;
+}
+@media (min-width: 768px) {
+  .text-solicite {
+    max-width: 400px;
+  }
+  #solicite {
+    justify-content: space-around;
+  }
+  @media (min-width: 1024px) {
+    .text-solicite {
+      align-self: center;
+      padding-top: 0px;
+      gap: 36px;
+    }
+    #solicite {
+      flex-direction: row;
+      align-items: center;
+    }
+    .readmore {
+      display: block;
+      justify-self: start;
+      width: 220px;
+    }
+    .form-solicite {
+      margin-bottom: 0px;
+    }
+  }
 }
