@@ -6,6 +6,7 @@
 @import url('./limit/limit.css');
 @import url('./cashback/cashback.css');
 @import url('./world/world.css');
+@import url('./doubts/doubts.css');
 
 body {
   font-family: var(--Ubuntu);
