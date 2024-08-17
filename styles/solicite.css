@@ -35,7 +35,7 @@
   text-align: center;
   display: block;
   padding: 8px;
-
+  font-size: 1rem;
   border-radius: 16px;
   border-width: 0px;
   width: 100%;
@@ -58,10 +58,14 @@
     justify-content: space-around;
   }
   @media (min-width: 1024px) {
-    .text-solicite {
+    .t1 .text-solicite {
       align-self: center;
       padding-top: 0px;
       gap: 36px;
+
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+      font-weight: 700;
     }
     #solicite {
       flex-direction: row;

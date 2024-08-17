@@ -44,42 +44,45 @@ a {
   color: #000;
   text-decoration: none;
 }
-.t0 {
+.subtitle {
   /*titulos footer         */
   font-family: "Ubuntu", sans-serif;
   font-size: 1.25rem;
   line-height: 1.25rem;
   font-weight: 700;
 }
-.t1 {
+.title {
   /*titulos mobile */
   font-family: "Ubuntu", sans-serif;
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
 }
-.t2 {
-  /*titulos desktop */
-  font-family: "Ubuntu", sans-serif;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-  font-weight: 700;
+@media (min-width: 768px) {
+  .title {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+  }
 }
 
-.f0 {
+.funcional {
   /*funcional botoes mobile */
   font-family: "Ubuntu Mono", sans-serif;
   font-size: 0.75rem;
   line-height: 1.25rem;
   font-weight: 700;
 }
-.f1 {
-  /*funcional botoes desktop */
-  font-family: "Ubuntu Mono", monospace;
-  font-size: 1rem;
-  line-height: 1.25rem;
-  font-weight: 700;
+@media (min-width: 768px) {
+  .funcional {
+    font-family: "Ubuntu Mono", monospace;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+  }
 }
+
 .f2 {
   /*funcional botoes de destaque */
   font-family: "Ubuntu Mono", monospace;
@@ -94,20 +97,22 @@ a {
   line-height: 2rem;
   font-weight: 700;
 }
-.b0 {
+.body-text {
   /*corpo de texto mobile */
   font-family: "Fira Sans", sans-serif;
   font-size: 0.75rem;
   line-height: 1rem;
   font-weight: 400;
 }
-.b1 {
-  /*corpo de texto deskop */
-  font-family: "Fira Sans", sans-serif;
-  font-size: 1rem;
-  line-height: 1.25rem;
-  font-weight: 400;
+@media (min-width: 768px) {
+  .body-text {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+  }
 }
+
 .btn {
   outline: none;
   border: none;
