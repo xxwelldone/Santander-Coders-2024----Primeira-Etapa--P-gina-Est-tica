@@ -2,12 +2,20 @@ header {
   width: 100vw;
   padding: 40px;
   background: var(--s4);
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+}
+
+.nav-desktop {
+  display: none;
 }
 
 .img-logo {
@@ -20,7 +28,6 @@ nav {
   border-radius: 12px;
   background-color: var(--r1);
   padding: 2px 40px;
-
   color: var(--w1);
 }
 
@@ -38,4 +45,81 @@ nav {
 .img-btn {
   width: 25px;
   height: 25px;
+}
+
+.menu-toggle {
+  display: none;
+}
+
+.menu-list {
+  display: none;
+  position: absolute;
+  top: 71px;
+  right: -40px;
+  background-color: var(--s4);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid var(--s4);
+}
+
+.menu-list > li {
+  padding: 10px;
+}
+
+.menu-list > li > a {
+  font-family: var(--UbuntuMono);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  color: var(--b1);
+}
+
+.menu-list > li > a:hover {
+  text-decoration: underline;
+}
+
+.menu-toggle:checked + .btn-menu + .menu-list {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .menu-toggle, .btn-menu, .btn-request, .img-logo {
+    display: none;
+  }
+
+  .nav-desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 150px;
+
+    width: 100%;
+  }
+
+  .nav-desktop > img {
+    width: 170px;
+    height: 30px;
+  }
+
+  .nav-desktop-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .nav-desktop-links > a {
+    font-family: var(--UbuntuMono);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+    color: var(--b1);
+  }
+
+  .nav-desktop-links > a:hover {
+    text-decoration: underline;
+  }
 }

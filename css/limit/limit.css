@@ -94,3 +94,55 @@
   line-height: normal;
   color: var(--b1);
 }
+
+@media (min-width: 768px) {
+  .container-limit {
+    height: 100%;
+    margin: 150px 0;
+  }
+
+  .container-limit-main {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+
+    margin: 0 auto;
+  }
+
+  .container-limit-text {
+    width: 50%;
+  }
+
+  .container-limit-text > h2 {
+    font-size: 36px;
+
+    width: 400px;
+  }
+
+  .container-limit-text > aside {
+    width: 400px;
+    font-size: 16px;
+  }
+
+  .container-limit-facilities-practicalities {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 50%;
+  }
+
+  .container-limit-facilities, .container-limit-practicalities {
+    height: 400px;
+  }
+
+  .container-limit-facilities > h3 , .container-limit-practicalities > h3 {
+    font-size: 20px;
+  }
+
+  .container-limit-facilities > ul > li > p, .container-limit-practicalities > ul > li > p  {
+    font-size: 16px;
+  }
+}

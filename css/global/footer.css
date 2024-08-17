@@ -1,0 +1,135 @@
+.container-footer {
+  width: 100vw;
+  overflow: hidden;
+
+  background-color: var(--b1);
+}
+
+.container-footer-main {
+  height: 100%;
+  width: clamp(300px, 90vw, 350px);
+  margin: 65px auto;
+}
+
+.container-footer-products-service {
+  color: var(--w1);
+  border-top: 1px solid var(--w1);
+  padding: 24px 8px;
+}
+
+.container-footer-products-service > summary {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  list-style: none;
+
+}
+
+.container-footer-products-service summary::-webkit-details-marker {
+  display: none;
+}
+
+.container-footer-products-service > ul {
+  margin-top: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.container-footer-products-service > ul > li {
+  font-family: var(--UbuntuMono);
+  font-weight: 400;
+  line-height: normal;
+
+  margin: 5px 0;
+}
+
+.container-footer-products-service > ul > li > a:hover {
+  text-decoration: underline;
+}
+
+.container-footer-products-service-about-project-manager {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+
+.container-footer-products-service-about-project-manager > p {
+  font-family: var(--UbuntuMono);
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container-footer-products-service-about-project-manager > p:first-child {
+  margin-top: 20px;
+}
+
+.container-footer-products-service-about-project-manager > p > a:hover {
+  text-decoration: underline;
+}
+
+.container-footer-socialnetwork {
+  color: var(--w1);
+  border-top: 1px solid var(--w1);
+  padding: 24px 8px;
+}
+
+.container-footer-socialnetwork-img {
+  margin: 16px 0 24px 0;
+}
+
+.container-footer-socialnetwork-img > ul {
+  display: flex;
+  gap: 15px;
+}
+
+.container-footer-socialnetwork-img ul > li > a > picture > img {
+  width: 30px;
+  height: 30px;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  border: none;
+  background-color: var(--w1);
+
+  margin: 48px 0 64px 0
+}
+
+.container-footer-copyright-information {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+
+  margin-bottom: 10px;
+}
+
+.container-footer-copyright-information-list > ul {
+  display: flex;
+  gap: 15px;
+}
+
+.container-footer-copyright-information-list > ul > li {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  font-family: var(--UbuntuMono);
+  color: var(--w1);
+  text-decoration: underline;
+}
+
+.container-footer-copyright-information-text > p {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  font-family: var(--UbuntuMono);
+  color: var(--w1);
+  margin-bottom: 10px;
+}
+
+.container-footer-copyright-information-text > p > span {
+  font-size: 20px;
+  font-weight: 700;
+}
