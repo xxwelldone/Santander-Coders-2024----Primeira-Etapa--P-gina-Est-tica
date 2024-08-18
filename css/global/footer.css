@@ -1,8 +1,12 @@
-.container-footer {
+.container-footer-mobile {
   width: 100vw;
   overflow: hidden;
 
   background-color: var(--b1);
+}
+
+.container-footer-desktop {
+  display: none;
 }
 
 .container-footer-main {
@@ -132,4 +136,151 @@ hr {
 .container-footer-copyright-information-text > p > span {
   font-size: 20px;
   font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .container-footer-mobile {
+    display: none;
+  }
+
+  .container-footer-desktop {
+    display: block;
+    width: 100vw;
+    overflow: hidden;
+    background-color: var(--b1);
+  }
+
+  .container-footer-main-desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    width: 70%;
+
+    margin: 65px auto;
+  }
+
+  .container-footer-main-products-desktop {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+  }
+
+  .container-footer-products-service-desktop {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: var(--w1);
+  }
+
+  .container-footer-products-service-desktop > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .container-footer-socialnetwork-desktop {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: var(--w1);
+  }
+
+  .container-footer-products-service-desktop > h4 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: normal;
+    list-style: none;
+
+    margin-bottom: 20px;
+  }
+
+  .container-footer-socialnetwork-img-desktop > ul {
+    display: flex;
+    gap: 20px;
+  }
+
+  .container-footer-products-service-desktop ul > li {
+    font-family: var(--UbuntuMono);
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .container-footer-products-service-desktop > ul > li > a:hover {
+    text-decoration: underline;
+  }
+
+  .container-footer-socialnetwork-img-desktop ul > li > a > picture > img {
+    width: 30px;
+    height: 30px;
+  }
+
+  hr {
+    margin: 70px 0;
+  }
+
+  .container-footer-products-service-desktop {
+    display: flex;
+    gap: 10px;
+  }
+
+  .container-footer-products-service-about-project-manager-desktop {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+
+    margin-bottom: 30px;
+  }
+
+  .container-footer-products-service-about-project-manager-desktop > p {
+    font-family: var(--UbuntuMono);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .container-footer-products-service-about-project-manager-desktop > p > a:hover {
+    text-decoration: underline;
+  }
+
+  .container-footer-copyright-information-desktop {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+
+    margin-bottom: 65px;
+  }
+
+
+  .container-footer-copyright-information-list-desktop > ul {
+    display: flex;
+    gap: 15px;
+  }
+
+  .container-footer-copyright-information-list-desktop > ul > li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--UbuntuMono);
+    color: var(--w1);
+    text-decoration: underline;
+  }
+
+  .container-footer-copyright-information-text-desktop > p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    font-family: var(--UbuntuMono);
+    color: var(--w1);
+    margin-bottom: 10px;
+  }
+
+  .container-footer-copyright-information-text-desktop > p > span {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
 }
