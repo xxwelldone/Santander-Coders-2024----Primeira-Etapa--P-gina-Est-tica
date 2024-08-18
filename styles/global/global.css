@@ -54,7 +54,7 @@ a {
 .title {
   /*titulos mobile */
   font-family: "Ubuntu", sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   line-height: 2rem;
   font-weight: 700;
 }
@@ -70,15 +70,17 @@ a {
 .funcional {
   /*funcional botoes mobile */
   font-family: "Ubuntu Mono", sans-serif;
-  font-size: 0.75rem;
+  /* font-size: 0.75rem; */
+  font-size: 1rem;
   line-height: 1.25rem;
   font-weight: 700;
 }
 @media (min-width: 768px) {
   .funcional {
     font-family: "Ubuntu Mono", monospace;
-    font-size: 1rem;
+    /* font-size: 1rem; */
     line-height: 1.25rem;
+    font-size: 1.25rem;
     font-weight: 700;
   }
 }
@@ -100,14 +102,18 @@ a {
 .body-text {
   /*corpo de texto mobile */
   font-family: "Fira Sans", sans-serif;
-  font-size: 0.75rem;
+  /* font-size: 0.75rem; */
+
+  font-size: 1rem;
   line-height: 1rem;
   font-weight: 400;
 }
 @media (min-width: 768px) {
   .body-text {
     font-family: "Fira Sans", sans-serif;
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    font-size: 1.25rem;
+
     line-height: 1.25rem;
     font-weight: 400;
   }
