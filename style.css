@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Barcode+39&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+.facilites-praticites h1{
+    margin-top: 138px;
+    margin-bottom: 16px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.facilites-praticites p{
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card-facilites {
+    width: 260px;
+    height: 437px;
+    background-color: #DEEDF2;
+    font-family: "Fira Sans", sans-serif
+}
+
+.card-facilites h5 {
+    color: #F42D24;
+}
+
+.card-pracilites {
+    width: 260px;
+    height: 437px;
+    background-color: #DEEDF2;
+}
+
+.card-pracilites h5 {
+    color: #F42D24;
+}
+
+.cashback {
+    margin-top: 100px;
+}
+
+.cashback h1{
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.cashback p{
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.anuidade {
+    margin-top: 162px;
+}
+
+.anuidade h1{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.anuidade .p1{
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.regrinhas{
+    margin-top: 172px;
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
+    font-size: 16px;
+}
