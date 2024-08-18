@@ -58,8 +58,8 @@
   }
 
   .item-tag-cashback {
-    padding: 0px 8px;
     gap: 12px;
+    justify-content: space-evenly;
   }
 }
 @media (min-width: 1024px) {
