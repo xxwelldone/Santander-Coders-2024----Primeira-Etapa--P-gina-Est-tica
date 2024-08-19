@@ -10,10 +10,349 @@
       type="image/x-icon"
     />
     <title>Santander | Onde praticidade encontra facilidades</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="nav-sticky">
+      <nav class="nav-container">
+        <a href="/index.html">
+        <picture>
+          <source
+            media="(min-width: 700px)"
+            srcset="/assets/santander-logo-large.svg"
+          />
+          <img
+            class="logo"
+            src="/assets/santander.svg"
+            alt="Chama vermelha, logo do Santander"
+          />
+        </picture>
+      </a>
+        <button class="btn funcional">Solicite</button>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="nav-menu">
+          <img href="#menu" src="/assets/Icons/hamburguerMenu.svg" alt="" />
+        </label>
+        <ul class="nav-list">
+          <li class="nav-list-item funcional"><a href="#solicite">Solicite</a></li>
+          <li class="nav-list-item funcional"><a href="#beneficios">Benefícios</a></li>
+          <li class="nav-list-item funcional"><a href="#faq">FAQ</a></li>
+          <li class="nav-list-item funcional">
+            <a href="#sobre">Sobre o projeto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="solicite">
+        <div class="text-solicite">
+          <h1 class="title solicite-title">
+            Onde praticidade encontra facilidades
+          </h1>
+          <p class="body-text solicite-paragraph">
+            Com Santander Coder, você tem as melhores oportunidades que só uma
+            das maiores instituições financeiras do mundo pode te oferecer.
+          </p>
+          <a class="btn funcional readmore" href="#marketing-container" target="_blank" rel="noopener noreferrer">Saiba mais</a>
+      
+        </div>
+        <div class="form-solicite body-text">
+          <form action="" method="post">
+            <p class="form-text body-text">
+              Seu Santander Coder em menos de um minuto.
+            </p>
+            <label for=""></label>
+            <input
+              type="text"
+              class="form-input funcional"
+              placeholder="Digite seu CPF"
+            />
+            <button class="btn funcional" type="submit">Continuar</button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <section>
+      <div id="beneficios">
+        <div class="beneficios-text">
+          <h2 class="title">Tudo o que precisa à um click de distância</h2>
+          <p class="body-text">
+            No App Santander Coders você terá acesso às informações que importam
+            de maneira rápido e descomplicada.
+          </p>
+          <p class="body-text">Quer aumentar limite? É só dar um click.</p>
+        </div>
+        <div class="cards-container">
+          <div class="beneficios-cards">
+            <h3 class="subtitle beneficios-title">Facilidades</h3>
+            <ul class="card">
+              <li class="card-item body-text">
+                <img
+                  src="/assets/Icons/movie icon.svg"
+                  alt=""
+                  srcset=""
+                />Descontos na rede de cinemas Cinemark.
+              </li>
+              <li class="card-item body-text">
+                <img
+                  src="/assets/Icons/streaming icon.svg"
+                  alt=""
+                  srcset=""
+                />50% Off no Globoplay+ Canais
+              </li>
+              <li class="card-item body-text">
+                <img
+                  src="/assets/Icons/school icon.svg"
+                  alt=""
+                  srcset=""
+                />Acesso a nova formação Ada Skill+
+              </li>
+              <li class="card-item body-text">
+                <img
+                  src="/assets/Icons/cloud icon.svg"
+                  alt=""
+                  srcset=""
+                />Certificação AWS todo ano 100% na faixa
+              </li>
+            </ul>
+          </div>
+          <div class="beneficios-cards">
+            <h3 class="subtitle beneficios-title">Praticidade</h3>
+            <ul class="card">
+              <li class="card-item body-text">
+                <img src="/assets/Icons/phone icon.svg" alt="" srcset="" />App
+                dedicado às suas demandas.
+              </li>
+              <li class="card-item body-text">
+                <img src="/assets/Icons/pay icon.svg" alt="" srcset="" />50%
+                Paguei com ApplePay.
+              </li>
+              <li class="card-item body-text">
+                <img
+                  src="/assets/Icons/credit card icon.svg"
+                  alt=""
+                  srcset=""
+                />É débito e crédito.
+              </li>
+              <li class="card-item body-text">
+                <img src="/assets/Icons/money icon.svg" alt="" srcset="" />Faça
+                compras internacionais sem solicitar desbloqueios.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div id="cashback">
+        <div class="cashback-text-img">
+          <div class="cashback-text">
+            <h2 class="title">Anuidade ZERO CASHBACK DE 10%</h2>
+            <p class="body-text">
+              O primeiro ano é por nossa conta, assim você foca no que importa.
+            </p>
+          </div>
+          <div class="cashback-img"></div>
+        </div>
+        <div class="tags-cashback">
+          <p class="body-text">Regrinhas...</p>
+          <div class="tags">
+            <div class="item-tag-cashback">
+              <p class="body-text item-1">Cashback</p>
+              <p class="body-text item-2">Compras acima de R$1500</p>
+            </div>
+            <div class="item-tag-cashback">
+              <p class="body-text item-1">Anuidade</p>
+              <p class="body-text item-2">ZERO por um ano</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <article id="marketing-container">
+      <div class="marketing-first">
+        <h2 class="title">O mundo todo já está aproveitando. </h2>
+      </div>
+      <div class="marketing-second">
+        
+        <div class="card-testemony">
+          <p class="funcional">“As melhores taxas para os melhores benefícios.” <span class=" deponent">O Globo</span></p>
+          
+        </div>
+        <div class="card-testemony">
+          <p class="funcional">“O primeiro serviço do mercado pensado para devs.” <span class=" deponent">Ada Tech</span></p>
+        </div>
+        <div class="card-testemony">
+          <p class="funcional">“A excêlencia Santander, agora para o mundo dev.” <span class=" deponent">Blumberg</span></p>
+        </div>
+      </div>
+     
+
+    </article>
+    <article class="info">
+      <div id="faq">
+        <h2 class="title">
+          Dúvidas Frequentes
+        </h2>
+        <dl class="faq-container">
+          <div class="faq-questions">
+            <input type="checkbox" id="question-1" />
+            <label for="question-1">
+            <dt class="faq-question-item funcional"> Preciso ser correntista Santander para solicitar?</dt>
+          </label>
+          <dd class="faq-response body-text">Não, você não precisa ser correntista do Santander para realizar uma solicitação conosco. Nossos produtos e serviços estão disponíveis para todos, independentemente de possuírem uma conta no banco. Caso tenha interesse em abrir uma conta, estaremos à disposição para orientá-lo durante o processo, mas isso não é um requisito para acessar as demais ofertas do Santander.
+          </dd>
+          </div>
+          <div class="faq-questions">
+            <input type="checkbox" id="question-2" />
+            <label for="question-2">
+            <dt class="faq-question-item funcional"> Consigo descontos em jogos com este cartão?</dt>
+          </label>
+            <dd class="faq-response body-text">Sim, com o cartão Santander, você pode aproveitar ofertas e descontos exclusivos em diversos parceiros, incluindo lojas de jogos e plataformas online. As promoções variam de acordo com a parceria vigente, então recomendamos que você fique atento às comunicações do banco e ao nosso site para não perder nenhuma oportunidade.
+            </dd>
+          </div>
+          <div class="faq-questions">
+            <input type="checkbox" id="question-3" />
+            <label for="question-3">
+            <dt class="faq-question-item funcional"> Sou brasileiro mas vivo no exterior, posso solicitar?
+            </dt>
+            </label>
+            <dd class="faq-response body-text">Sim, brasileiros que residem no exterior podem solicitar um cartão Santander. No entanto, o processo pode variar dependendo do país em que você está. Recomendamos que entre em contato com uma das nossas agências ou com a central de atendimento para obter informações detalhadas e verificar a documentação necessária para a sua solicitação.
+            </dd>
+          </div>
+          <div class="faq-questions">
+            <input type="checkbox" id="question-4" />
+            <label for="question-4">
+            <dt class="faq-question-item funcional"> Preciso ser dev para solicitar?
+            </dt>
+            </label>
+            <dd class="faq-response body-text">Não, você não precisa ser desenvolvedor ou ter qualquer formação específica para solicitar um cartão Santander. Nossos produtos são acessíveis a todos, independentemente de sua profissão ou área de atuação. Se tiver alguma dúvida durante o processo de solicitação, nossa equipe está pronta para ajudar.
+            </dd>
+          </div>
+          <div class="faq-questions">
+            <input type="checkbox" id="question-5" />
+            <label for="question-5">
+            <dt class="faq-question-item funcional"> Consigo trocar cashback por skin no League of Legends?
+            </dt>
+            </label>
+            <dd class="faq-response body-text">Não, o cashback obtido com o cartão Santander não pode ser diretamente trocado por skins no League of Legends ou qualquer outro item em jogos. No entanto, você pode utilizar o valor do cashback para comprar pontos ou créditos em plataformas de jogos, que posteriormente podem ser usados para adquirir skins e outros itens dentro do jogo.
+            </dd>
+          </div>
+          <div class="faq-questions">
+                         
+            <input type="checkbox" id="question-6" />
+            <label for="question-6">
+              <dt class="faq-question-item funcional"> Consigo usar cashback como forma de pagamento da anuidade? 
+              </dt>
+            </label>
+            <dd class="faq-response body-text">Sim, com alguns cartões Santander, você pode utilizar o valor acumulado em cashback para abater ou até mesmo pagar integralmente a anuidade. Essa opção varia de acordo com o tipo de cartão que você possui. Para mais detalhes e para verificar se o seu cartão é elegível, recomendamos que consulte o regulamento específico do seu cartão ou entre em contato com a central de atendimento.
+            </dd>
+          </div>
+        </dl>
+          
+      </div>
+     <aside id="contact">
+      <h2 class="title">
+        Ainda com dúvidas?
+      </h2>
+      <div class="contact-btn">
+
+        <a class="btn funcional" href="http://" target="_blank" rel="noopener noreferrer">Fale conosco</a>     
+        <a class="btn funcional" href="http://" target="_blank" rel="noopener noreferrer">Solicite agora</a> 
+       
+      </div>
+     </aside>
+  
+    </article>
+    <footer class="footer-container">
+  <details class="product">
+    <summary class="subtitle">Produtos e Serviços</summary>
+    <ul class="list-products">
+        <li class="funcional"><a  class="product-items" href="https://www.santander.com.br/conta-corrente-pessoa-fisica?ic=homepf-footer-contacorrente" target="_blank" rel="noopener noreferrer">Conta corrente</a></li>
+      <li class="funcional" ><a class="product-items" href="https://www.santander.com.br/cartao-credito-santander?ic=homepf-footer-cartaodecredito" target="_blank" rel="noopener noreferrer">Cartões de crédito</a></li>
+      <li class="funcional" ><a class="product-items" href="https://www.santander.com.br/seguros?ic=homepf-footer-seguros" target="_blank" rel="noopener noreferrer">Seguros</a></li>
+      <li class="funcional" ><a class="product-items"  href="https://www.santander.com.br/emprestimos/?ic=homepf:footer:credito-e-financiamentos" target="_blank" rel="noopener noreferrer">Crédito e Financiamentos</a></li>
+      <li class="funcional" ><a class="product-items"  href="https://www.santander.com.br/investimentos-para-voce?ic=homepf-footer-investimentoseprev" target="_blank" rel="noopener noreferrer">Investimentos</a></li>
+      <li class="funcional" ><a class="product-items"  href="https://www.santander.com.br/tarifas-e-pacotes-pessoa-fisica?ic=homepf-footer-tarifas" target="_blank" rel="noopener noreferrer">Tarifas e pacotes de serviços</a></li>
+      <li class="funcional" ><a class="product-items"  href="https://www.santander.com.br/empresas/?ic=homepf:footer:para-sua-empresa" target="_blank" rel="noopener noreferrer">Para sua Empresa</a></li>
+    </ul>
+  </details>
+  <hr>
+  <details class="product">
+    <summary class="subtitle">Sobre nós</summary>
+    <ul class="list-products">
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/institucional-santander/santander-no-brasil?ic=homepf-footer-sobre" target="_blank" rel="noopener noreferrer">Sobre nós</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/educacao-financeira?ic=homepf-footer-educacaofinaceira" target="_blank" rel="noopener noreferrer">Educação Financeira</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/institucional-santander/trabalhe-conosco/?ic=homepf-footer-trabalheconosco" target="_blank" rel="noopener noreferrer">Trabalhe conosco</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/sustentabilidade/?ic=homepf:footer:sustentabilidade" target="_blank" rel="noopener noreferrer">Sustentabilidade</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/ri/home/?ic=homepf:footer:relacao-com-investidores" target="_blank" rel="noopener noreferrer">Relações com Investidores</a></li>
+      <li class="funcional"><a class="product-items" href="https://santanderimprensa.com.br/?utm_source=homepf&utm_medium=footer&utm_campaign=imprensa" target="_blank" rel="noopener noreferrer">Imprensa</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/analise-economica?ic=homepf-footer-analiseeconomica" target="_blank" rel="noopener noreferrer">Análises Econômicas</a></li>
+    </ul>
+  </details>
+<hr>
+  <details class="product">
+    <summary class="subtitle">Fale Conosco</summary>
+    <ul class="list-products">
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/atendimento-para-voce?ic=homepf-footer-centraldeatendimento" target="_blank" rel="noopener noreferrer">Central de Atendimento</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/atendimento-para-voce/telefones-santander?ic=homepf-footer-centralreneg" target="_blank" rel="noopener noreferrer">Central de Renegociação</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/atendimento-para-voce/telefones-santander?ic=homepf-footer-sac" target="_blank" rel="noopener noreferrer">S.A.C</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/atendimento-para-voce/telefones-santander/ouvidoria?ic=homepf-footer-ouvidoria" target="_blank" rel="noopener noreferrer">Ouvidoria</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/agencias?ic=homepf-footer-agencias" target="_blank" rel="noopener noreferrer">Encontre nossas agências</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/novos-horarios-funcionamento-agencias?ic=homepf-footer-horariosagencias" target="_blank" rel="noopener noreferrer">Horários de Atendimento</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/atendimento-para-voce/telefones-santander?ic=homepf-footer-telefones" target="_blank" rel="noopener noreferrer">Telefones</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/institucional-santander/seguranca/denuncias-e-fraudes?ic=homepf-footer-fraudes" target="_blank" rel="noopener noreferrer">Segurança</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/sustentabilidade/funcionarios/etica-nas-relacoes/?ic=homepf:footer:etica-canal-denuncia" target="_blank" rel="noopener noreferrer">Ética – Canal de denúncia</a></li>
+    </ul>
+  </details>
+  <hr>
+  <div class="product">
+    <h4 class="subtitle">Redes sociais</h3>
+      <ul class="social-list">
+        <li class="social-item"><img src="/assets/Icons/facebook 2.svg" alt="" srcset=""></li>
+        <li class="social-item"><img src="/assets/Icons/instagram 2.svg" alt="" srcset=""></li>
+        <li class="social-item"><img src="/assets/Icons/linkedin 2.svg" alt="" srcset=""></li>
+      </ul>
+  </div>
+  <hr>
+  <div class="product" id="sobre">
+    <h4 class="subtitle">Sobre o projeto</h3>
+ <p class="funcional">Design por <a href="https://www.linkedin.com/in/wesley-menezes-625998193/" target="_blank" rel="noopener noreferrer"> Wesley Menezes</a></p>
+ <p class="funcional">Código por <a href="http://" target="_blank" rel="noopener noreferrer">Wesley Menezes</a>, <a href="https://www.linkedin.com/in/gabryel-costa-86620a2a8/" target="_blank" rel="noopener noreferrer"> Gabryel Costa</a> e <a href="https://www.linkedin.com/in/lucas-lourenco-correia/" target="_blank" rel="noopener noreferrer">Lucas Lourenço</a></p>
+  </div>
+  <hr>
+  <div class="copyrights">
+    <div class="rights">
+      <p class="text-copyrights"><span>&copy;</span> Banco Santander (Brasil) S.A., CNPJ: 90.400.888/0001-42</p>
+      <p class="text-copyrights">Av. Presidente Juscelino Kubitschek 2041/2235 – Vila Olímpia – São Paulo/SP.</p>
+    </div>
+    <div class="privacy">
+      <ul class="privacy-list">
+        <li><a class="text-copyrights" href="#">Política de Privacidade</a></li>
+        <li><a class="text-copyrights" href="#">Segurança</a></li>
+        <li><a class="text-copyrights" href="#">LGPD</a></li>
+      </ul>
+    </div>
+  </div>
+  
+    </footer>
   </body>
 </html>

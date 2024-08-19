@@ -1,0 +1,89 @@
+#cashback {
+  display: flex;
+  flex-direction: column;
+  padding: 32px 16px;
+  background-color: var(--b1);
+  color: var(--w1);
+}
+.cashback-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-self: flex-start;
+}
+
+.cashback-img {
+  height: 100vw; /*!-- 100% de height de acordo com o vw*/
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/assets/Coder.svg");
+}
+#cashback > body-text {
+  margin-bottom: 16px;
+}
+/* .tags-cashback {
+  display: flex;
+
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 14px;
+} */
+.item-tag-cashback {
+  display: grid;
+  background-color: var(--s3);
+  color: var(--b1);
+  font-size: 0.75rem;
+  justify-content: space-around;
+  align-items: center;
+  height: 36px;
+  margin-top: 16px;
+}
+.tags-cashback .item-tag-cashback .item-1 {
+  grid-column: 1;
+}
+.tags-cashback .item-tag-cashback .item-2 {
+  grid-column: 2;
+}
+@media (min-width: 768px) {
+  .cashback-img {
+    height: 100vh;
+  }
+  .tags-cashback {
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 16px;
+  }
+
+  .item-tag-cashback {
+    gap: 12px;
+    justify-content: space-evenly;
+  }
+}
+@media (min-width: 1024px) {
+  #cashback {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  .cashback-text-img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 0.5fr;
+  }
+  .cashback-text {
+    grid-column: 1/3;
+    grid-row: 2;
+  }
+  .cashback-img {
+    grid-column: 1/5;
+    grid-row: 1;
+    height: 80vh;
+  }
+  .tags-cashback {
+    width: 700px;
+    white-space: nowrap;
+    margin-left: 92px;
+  }
+}

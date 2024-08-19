@@ -1,0 +1,83 @@
+#solicite {
+  background-image: url("/assets/bg-photos/bg-woman.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-solicite {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding-top: 30px;
+  color: var(--w1);
+  margin: 0px 16px;
+}
+
+.form-solicite {
+  display: flex;
+  flex-direction: row;
+  max-width: 360px;
+  padding: 22px;
+  color: var(--w1);
+  background-color: var(--r1);
+  border-radius: 16px;
+  margin-bottom: 38px;
+}
+.form-text {
+  text-align: center;
+}
+.form-input {
+  text-align: center;
+  display: block;
+  padding: 8px;
+  font-size: 1rem;
+  border-radius: 16px;
+  border-width: 0px;
+  width: 100%;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+.form-solicite .btn {
+  background-color: var(--w1);
+  color: var(--b1);
+  width: 100%;
+}
+.readmore {
+  display: none;
+}
+@media (min-width: 768px) {
+  .text-solicite {
+    max-width: 400px;
+  }
+  #solicite {
+    justify-content: space-around;
+  }
+  @media (min-width: 1024px) {
+    .t1 .text-solicite {
+      align-self: center;
+      padding-top: 0px;
+      gap: 36px;
+
+      font-size: 2.25rem;
+      line-height: 2.5rem;
+      font-weight: 700;
+    }
+    #solicite {
+      flex-direction: row;
+      align-items: center;
+    }
+    .readmore {
+      display: block;
+      justify-self: start;
+      width: 220px;
+    }
+    .form-solicite {
+      margin-bottom: 0px;
+    }
+  }
+}
