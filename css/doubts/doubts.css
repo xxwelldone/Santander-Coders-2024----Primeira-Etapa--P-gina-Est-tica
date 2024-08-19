@@ -1,6 +1,5 @@
 .container-doubts {
   width: 100vw;
-  height: 100vh;
   overflow: hidden;
 }
 
@@ -27,15 +26,39 @@
   gap: 10px;
 }
 
-.container-asked {
+.container-asked > summary {
   display: flex;
-  align-items: center;
-  justify-content: start;
   gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: var(--UbuntuMono);
+  font-weight: 700;
+  line-height: normal;
+  list-style: none;
 
-  background-color: var(--s1);
+  background-color: var(--s0);
   border-radius: 16px;
   padding: 20px;
+  margin-bottom: 5px;
+}
+
+.container-asked summary::-webkit-details-marker {
+  display: none;
+}
+
+.container-asked > div {
+  width: clamp(300px, 90vw, 350px);
+  background-color: var(--s1);
+  border-radius: 16px;
+  padding: 15px;
+}
+
+.container-asked > div > p {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: var(--UbuntuMono);
+  color: var(--b1);
+  text-align: justify;
 }
 
 .container-doubts-button {
@@ -109,7 +132,23 @@
 }
 
 @media (min-width: 1600px) {
+  .container-doubts {
+    margin: 150px 0 75px;
+  }
+
   .container-doubts > h3 {
-    margin: 150px 0 15px 430px;
+    margin: 0 0 15px 370px;
+  }
+
+  .container-asked > summary {
+    font-size: 20px;
+  }
+
+  .container-asked > div {
+    width: 640px;
+  }
+
+  .container-asked > div > p {
+    font-size: 16px;
   }
 }
