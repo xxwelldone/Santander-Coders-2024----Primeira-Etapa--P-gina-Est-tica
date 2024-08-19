@@ -69,7 +69,7 @@ a {
 
 .funcional {
   /*funcional botoes mobile */
-  font-family: "Ubuntu Mono", sans-serif;
+  font-family: Helvetica, sans-serif;
   /* font-size: 0.75rem; */
   font-size: 1rem;
   line-height: 1.25rem;
@@ -77,7 +77,7 @@ a {
 }
 @media (min-width: 768px) {
   .funcional {
-    font-family: "Ubuntu Mono", monospace;
+    font-family: Helvetica, sans-serif;
     /* font-size: 1rem; */
     line-height: 1.25rem;
     font-size: 1.25rem;
@@ -87,14 +87,14 @@ a {
 
 .f2 {
   /*funcional botoes de destaque */
-  font-family: "Ubuntu Mono", monospace;
+  font-family: Helvetica, sans-serif;
   font-size: 1.25rem;
   line-height: 1.25rem;
   font-weight: 700;
 }
 .f3 {
   /*funcional menu */
-  font-family: "Ubuntu Mono", monospace;
+  font-family: Helvetica, sans-serif;
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;

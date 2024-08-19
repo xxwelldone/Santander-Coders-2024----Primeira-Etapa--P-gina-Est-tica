@@ -83,5 +83,7 @@
   }
   .tags-cashback {
     width: 700px;
+    white-space: nowrap;
+    margin-left: 92px;
   }
 }

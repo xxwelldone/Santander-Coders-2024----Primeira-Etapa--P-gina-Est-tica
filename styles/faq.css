@@ -96,5 +96,8 @@
   .info {
     display: flex;
     flex-direction: row;
+
+    margin-top: 20px;
+    margin-left: 60px;
   }
 }

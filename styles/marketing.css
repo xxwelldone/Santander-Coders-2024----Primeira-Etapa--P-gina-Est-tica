@@ -13,13 +13,13 @@
   padding: 28px 16px;
   color: var(--w1);
   background-image: url("/assets/bg-photos/woman-bg-second.png");
-  height: 100vh;
+  height: 50vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .marketing-first .title {
-  margin: 60px;
+  margin-top: 60px;
   max-width: 360px;
 }
 .marketing-second {
@@ -56,17 +56,25 @@
   #marketing-container {
     position: relative;
   }
+  .marketing-first {
+    height: 100vh;
+  }
+  .marketing-first .title {
+    margin-left: 92px;
+  }
   .marketing-second {
     grid-template-columns: repeat(16, 1fr);
 
     background-color: transparent;
     position: absolute;
     bottom: 6px;
+    margin-left: 92px;
   }
   .card-testemony {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 220px;
   }
   .card-testemony:nth-child(1) {
     grid-column: 1/4;

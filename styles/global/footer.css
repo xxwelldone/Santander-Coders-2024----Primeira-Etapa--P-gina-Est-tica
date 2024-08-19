@@ -15,6 +15,9 @@
   color: var(--w1);
   margin-bottom: 16px;
 }
+.product .subtitle:hover {
+  text-decoration: underline;
+}
 .product-items {
   color: var(--w1);
 }
@@ -31,6 +34,9 @@
   color: var(--w1);
 }
 .product .funcional a {
+  text-decoration: none;
+}
+.product .funcional a:hover {
   text-decoration: underline;
 }
 .copyrights {
@@ -48,6 +54,12 @@
 }
 .product .funcional {
   font-size: 0.8rem;
+}
+#sobre a {
+  text-decoration: underline;
+}
+#sobre a:hover {
+  color: var(--r7);
 }
 
 @media (min-width: 768px) {
