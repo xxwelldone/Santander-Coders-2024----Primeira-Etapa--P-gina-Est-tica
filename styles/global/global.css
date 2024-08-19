@@ -126,4 +126,13 @@ a {
   color: var(--w1);
   padding: 8px 40px;
   border-radius: 16px;
+  text-align: center;
+}
+.text-copyrights {
+  color: var(--w1);
+  font-size: 0.8rem;
+  font-family: "Fira Sans", sans-serif;
+}
+.no-break {
+  white-space: nowrap;
 }

@@ -32,6 +32,7 @@
   <body>
     <header class="nav-sticky">
       <nav class="nav-container">
+        <a href="/index.html">
         <picture>
           <source
             media="(min-width: 700px)"
@@ -43,18 +44,18 @@
             alt="Chama vermelha, logo do Santander"
           />
         </picture>
-
+      </a>
         <button class="btn funcional">Solicite</button>
         <input type="checkbox" id="menu-toggle" />
         <label for="menu-toggle" class="nav-menu">
           <img href="#menu" src="/assets/Icons/hamburguerMenu.svg" alt="" />
         </label>
         <ul class="nav-list">
-          <li class="nav-list-item funcional"><a href="">Solicite</a></li>
-          <li class="nav-list-item funcional"><a href="">Benefícios</a></li>
-          <li class="nav-list-item funcional"><a href="">FAQ</a></li>
+          <li class="nav-list-item funcional"><a href="#solicite">Solicite</a></li>
+          <li class="nav-list-item funcional"><a href="#beneficios">Benefícios</a></li>
+          <li class="nav-list-item funcional"><a href="#faq">FAQ</a></li>
           <li class="nav-list-item funcional">
-            <a href="">Sobre o projeto</a>
+            <a href="#sobre">Sobre o projeto</a>
           </li>
         </ul>
       </nav>
@@ -69,7 +70,8 @@
             Com Santander Coder, você tem as melhores oportunidades que só uma
             das maiores instituições financeiras do mundo pode te oferecer.
           </p>
-          <button class="btn funcional readmore">Saiba mais</button>
+          <a class="btn funcional readmore" href="#marketing-container" target="_blank" rel="noopener noreferrer">Saiba mais</a>
+      
         </div>
         <div class="form-solicite body-text">
           <form action="" method="post">
@@ -280,6 +282,77 @@
      </aside>
   
     </article>
-    <footer></footer>
+    <footer class="footer-container">
+  <details class="product">
+    <summary class="subtitle">Produtos e Serviços</summary>
+    <ul class="list-products">
+        <li class="funcional"><a  class="product-items" href="https://www.santander.com.br/conta-corrente-pessoa-fisica?ic=homepf-footer-contacorrente" target="_blank" rel="noopener noreferrer">Conta corrente</a></li>
+      <li class="funcional" ><a class="product-items" href="https://www.santander.com.br/cartao-credito-santander?ic=homepf-footer-cartaodecredito" target="_blank" rel="noopener noreferrer">Cartões de crédito</a></li>
+      <li class="funcional" ><a class="product-items" href="https://www.santander.com.br/seguros?ic=homepf-footer-seguros" target="_blank" rel="noopener noreferrer">Seguros</a></li>
+      <li class="funcional" ><a class="product-items"  href="https://www.santander.com.br/emprestimos/?ic=homepf:footer:credito-e-financiamentos" target="_blank" rel="noopener noreferrer">Crédito e Financiamentos</a></li>
+      <li class="funcional" ><a class="product-items"  href="https://www.santander.com.br/investimentos-para-voce?ic=homepf-footer-investimentoseprev" target="_blank" rel="noopener noreferrer">Investimentos</a></li>
+      <li class="funcional" ><a class="product-items"  href="https://www.santander.com.br/tarifas-e-pacotes-pessoa-fisica?ic=homepf-footer-tarifas" target="_blank" rel="noopener noreferrer">Tarifas e pacotes de serviços</a></li>
+      <li class="funcional" ><a class="product-items"  href="https://www.santander.com.br/empresas/?ic=homepf:footer:para-sua-empresa" target="_blank" rel="noopener noreferrer">Para sua Empresa</a></li>
+    </ul>
+  </details>
+  <hr>
+  <details class="product">
+    <summary class="subtitle">Sobre nós</summary>
+    <ul class="list-products">
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/institucional-santander/santander-no-brasil?ic=homepf-footer-sobre" target="_blank" rel="noopener noreferrer">Sobre nós</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/educacao-financeira?ic=homepf-footer-educacaofinaceira" target="_blank" rel="noopener noreferrer">Educação Financeira</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/institucional-santander/trabalhe-conosco/?ic=homepf-footer-trabalheconosco" target="_blank" rel="noopener noreferrer">Trabalhe conosco</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/sustentabilidade/?ic=homepf:footer:sustentabilidade" target="_blank" rel="noopener noreferrer">Sustentabilidade</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/ri/home/?ic=homepf:footer:relacao-com-investidores" target="_blank" rel="noopener noreferrer">Relações com Investidores</a></li>
+      <li class="funcional"><a class="product-items" href="https://santanderimprensa.com.br/?utm_source=homepf&utm_medium=footer&utm_campaign=imprensa" target="_blank" rel="noopener noreferrer">Imprensa</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/analise-economica?ic=homepf-footer-analiseeconomica" target="_blank" rel="noopener noreferrer">Análises Econômicas</a></li>
+    </ul>
+  </details>
+<hr>
+  <details class="product">
+    <summary class="subtitle">Fale Conosco</summary>
+    <ul class="list-products">
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/atendimento-para-voce?ic=homepf-footer-centraldeatendimento" target="_blank" rel="noopener noreferrer">Central de Atendimento</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/atendimento-para-voce/telefones-santander?ic=homepf-footer-centralreneg" target="_blank" rel="noopener noreferrer">Central de Renegociação</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/atendimento-para-voce/telefones-santander?ic=homepf-footer-sac" target="_blank" rel="noopener noreferrer">S.A.C</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/atendimento-para-voce/telefones-santander/ouvidoria?ic=homepf-footer-ouvidoria" target="_blank" rel="noopener noreferrer">Ouvidoria</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/agencias?ic=homepf-footer-agencias" target="_blank" rel="noopener noreferrer">Encontre nossas agências</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/novos-horarios-funcionamento-agencias?ic=homepf-footer-horariosagencias" target="_blank" rel="noopener noreferrer">Horários de Atendimento</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/atendimento-para-voce/telefones-santander?ic=homepf-footer-telefones" target="_blank" rel="noopener noreferrer">Telefones</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/institucional-santander/seguranca/denuncias-e-fraudes?ic=homepf-footer-fraudes" target="_blank" rel="noopener noreferrer">Segurança</a></li>
+      <li class="funcional"><a class="product-items" href="https://www.santander.com.br/sustentabilidade/funcionarios/etica-nas-relacoes/?ic=homepf:footer:etica-canal-denuncia" target="_blank" rel="noopener noreferrer">Ética – Canal de denúncia</a></li>
+    </ul>
+  </details>
+  <hr>
+  <div class="product">
+    <h4 class="subtitle">Redes sociais</h3>
+      <ul class="social-list">
+        <li class="social-item"><img src="/assets/Icons/facebook 2.svg" alt="" srcset=""></li>
+        <li class="social-item"><img src="/assets/Icons/instagram 2.svg" alt="" srcset=""></li>
+        <li class="social-item"><img src="/assets/Icons/linkedin 2.svg" alt="" srcset=""></li>
+      </ul>
+  </div>
+  <hr>
+  <div class="product" id="sobre">
+    <h4 class="subtitle">Sobre o projeto</h3>
+ <p class="funcional">Design por <a href="https://www.linkedin.com/in/wesley-menezes-625998193/" target="_blank" rel="noopener noreferrer"> Wesley Menezes</a></p>
+ <p class="funcional">Código por <a href="http://" target="_blank" rel="noopener noreferrer">Wesley Menezes</a>, <a href="https://www.linkedin.com/in/gabryel-costa-86620a2a8/" target="_blank" rel="noopener noreferrer"> Gabryel Costa</a> e <a href="https://www.linkedin.com/in/lucas-lourenco-correia/" target="_blank" rel="noopener noreferrer">Lucas Lourenço</a></p>
+  </div>
+  <hr>
+  <div class="copyrights">
+    <div class="rights">
+      <p class="text-copyrights"><span>&copy;</span> Banco Santander (Brasil) S.A., CNPJ: 90.400.888/0001-42</p>
+      <p class="text-copyrights">Av. Presidente Juscelino Kubitschek 2041/2235 – Vila Olímpia – São Paulo/SP.</p>
+    </div>
+    <div class="privacy">
+      <ul class="privacy-list">
+        <li><a class="text-copyrights" href="#">Política de Privacidade</a></li>
+        <li><a class="text-copyrights" href="#">Segurança</a></li>
+        <li><a class="text-copyrights" href="#">LGPD</a></li>
+      </ul>
+    </div>
+  </div>
+  
+    </footer>
   </body>
 </html>
